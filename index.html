@@ -36,10 +36,9 @@
                 <li class="lista-item">
                     <a href="#" class="lista-menu-link">Business</a>
                 </li>
-                <l<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js">
-                    </script>i class="lista-item">
+                <li class="lista-item">
                     <a href="#" class="lista-menu-link">Design & UX</a>
-                    </li>
+                </li>
             </ul>
             <img src="img/Logo.png" alt="Logo da AluraBooks">
         </div>
@@ -60,39 +59,45 @@
             <div class="swiper-pagination"></div>
             <div class="swiper-wrapper">
                 <!-- Slides -->
-                <div class="swiper-slide"><img src="img/ApacheKafka.png" alt="Livro sobre apacha Kafka da AluraBooks">
-                </div>
-                <div class="swiper-slide"><img src="img/Acessibilidade.png"
-                        alt="Livro sobre Acessibilidade da AluraBooks"></div>
-                <div class="swiper-slide"><img src="img/Angular.png" alt="Livro sobre Angular da AluraBooks"></div>
-                <div class="swiper-slide"><img src="img/Arquitetura.png" alt="Livro sobre Arquitetura da AluraBooks">
-                </div>
-                <div class="swiper-slide"><img src="img/Construct2.png" alt="Livro sobre Construct2 da AluraBooks">
-                </div>
-                <div class="swiper-slide"><img src="img/Gestão.png" alt="Livro sobre Gestão da AluraBooks"></div>
-                <div class="swiper-slide"><img src="img/Gestão2.png" alt="Livro sobre Gestão2 da AluraBooks"></div>
-                <div class="swiper-slide"><img src="img/Guia Front-end.png"
-                        alt="Livro sobre Guia Front-End da AluraBooks"></div>
-                <div class="swiper-slide"><img src="img/Javascript.png" alt="Livro sobre Javascript da AluraBooks">
-                </div>
-                <div class="swiper-slide"><img src="img/Liderança.png" alt="Livro sobre Liderança da AluraBooks"></div>
-                <div class="swiper-slide"><img src="img/MEAN.png" alt="Livro sobre MEAN da AluraBooks"></div>
+                <div class="swiper-slide"><img src="img/ApacheKafka.png" alt="Livro sobre apache Kafka da AluraBooks"></div>
+                <div class="swiper-slide"><img src="img/Javascript.png" alt="Livro sobre Javascript da AluraBooks"></div>
+                <div class="swiper-slide"><img src="img/Guia Front-end.png" alt="Livro sobre Front-End da AluraBooks"></div>
+                <div class="swiper-slide"><img src="img/Acessibilidade.png" alt="Livro sobre Acessibilidade"></div>
+                <div class="swiper-slide"><img src="img/Angular2.png" alt="Livro sobre Angular2"></div>
             </div>
-            <!-- If we need navigation buttons -->
+            </div>
+            </div>
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
+        </div>
+        <div class="card">
+            <div class="card-descricao">
+                <div class="descricao">
+                    <h3 class="descricao-titulo">Talvez você se interesse por...</h3>
+                    <h2 class="descricao-titulo-livro">Angular e Firebase</h2>
+                    <p class="descricao-texto">Construção de aplicação integrada ao Google</p>
+                </div>
+                <img src="./img/Angular.png" class="descricao-imagem">
+            </div>
+            <div class="card-botoes">
+                <ul class="botoes">
+                    <li class="botoes-item"><img src="./img/Favoritos.png" alt="Favoritar Livro"></li>
+                    <li class="botoes-item"><img src="./img/Sacola.png" alt="Adicionar à Sacola"></li>
+                </ul>
+                <a href="#" class="botoe-ancora">Saiba mais</a>
+            </div>
         </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         const swiper = new Swiper('.swiper', {
-            spaceBetween: 10,
-            slidesPerView: 3,
-            pagination: {
-                el:'.swiper-pagination',
-                type:'bullets',
-            },
-        });
+        spaceBetween: 10,
+        slidesPerView: 3,
+        pagination: {
+            el:'.swiper-pagination',
+            type: 'bullets',
+        },
+    });
     </script>
 </body>
 
